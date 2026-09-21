@@ -3,11 +3,6 @@
 A small, **standalone** command-line tool to find and delete inactive users
 from Qlik Sense via the QRS (Qlik Repository Service) API.
 
-> **This is a fully independent side project.** It does not import from, or
-> depend on, the `qlik_lineage` repository in any way. It has its own `.env`,
-> its own minimal QRS client, and its own CLI. Safe to copy elsewhere or
-> delete without affecting the lineage agent.
-
 ## Why this exists
 
 Qlik's `/qrs/user` API may expose a native `inactive` boolean, depending on
